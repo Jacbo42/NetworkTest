@@ -11,13 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning5_1_Klie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning5_1_Server", "WinFormsApp_Övning5_1_Server\WinFormsApp_Övning5_1_Server.csproj", "{B17172FD-E067-4D81-8529-0733543FFC45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning5_2_Server", "WinFormsApp_Övning5_2_Server\WinFormsApp_Övning5_2_Server.csproj", "{26662333-1B9B-4BEC-93DF-7105B12BB33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning5_2_Server", "WinFormsApp_Övning5_2_Server\WinFormsApp_Övning5_2_Server.csproj", "{26662333-1B9B-4BEC-93DF-7105B12BB33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning5_2_Client", "WinFormsApp_Övning5_2_Client\WinFormsApp_Övning5_2_Client.csproj", "{82414D90-5E16-49BE-AE07-619F8850121E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning5_2_Client", "WinFormsApp_Övning5_2_Client\WinFormsApp_Övning5_2_Client.csproj", "{82414D90-5E16-49BE-AE07-619F8850121E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning_5_3_Server", "WinFormsApp_Övning_5_3_Server\WinFormsApp_Övning_5_3_Server.csproj", "{E2E7A9C7-E78F-4572-A662-120770081460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning_5_3_Server", "WinFormsApp_Övning_5_3_Server\WinFormsApp_Övning_5_3_Server.csproj", "{E2E7A9C7-E78F-4572-A662-120770081460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning_5_3_Client", "WinFormsApp_Övning_5_3_Client\WinFormsApp_Övning_5_3_Client.csproj", "{937A0555-05E1-4B93-8871-F4D089362D3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp_Övning_5_3_Client", "WinFormsApp_Övning_5_3_Client\WinFormsApp_Övning_5_3_Client.csproj", "{937A0555-05E1-4B93-8871-F4D089362D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning_5_4_Server", "WinFormsApp_Övning_5_4_Server\WinFormsApp_Övning_5_4_Server.csproj", "{C446FD27-ACF5-4457-9387-FAC3236198E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp_Övning_5_4_Client", "WinFormsApp_Övning_5_4_Client\WinFormsApp_Övning_5_4_Client.csproj", "{0F6B2133-52D6-4A10-9CF8-A9240C68CEDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{937A0555-05E1-4B93-8871-F4D089362D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937A0555-05E1-4B93-8871-F4D089362D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{937A0555-05E1-4B93-8871-F4D089362D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C446FD27-ACF5-4457-9387-FAC3236198E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C446FD27-ACF5-4457-9387-FAC3236198E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C446FD27-ACF5-4457-9387-FAC3236198E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C446FD27-ACF5-4457-9387-FAC3236198E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6B2133-52D6-4A10-9CF8-A9240C68CEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6B2133-52D6-4A10-9CF8-A9240C68CEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6B2133-52D6-4A10-9CF8-A9240C68CEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6B2133-52D6-4A10-9CF8-A9240C68CEDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

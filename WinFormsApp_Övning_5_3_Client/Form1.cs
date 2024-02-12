@@ -16,6 +16,7 @@ namespace WinFormsApp_Övning_5_3_Client
 
         private void btnAnslut_Click(object sender, EventArgs e)
         {
+
             if (!klient.Connected) StartaAnslutning();
         }
 
@@ -30,23 +31,26 @@ namespace WinFormsApp_Övning_5_3_Client
             {
                 IPAddress adress = IPAddress.Parse(tbxIPadress.Text);
                 await klient.ConnectAsync(adress, port);
+                btnSend.Enabled = true;
+                btnAnslut.Enabled = false;
 
             }
             catch (Exception error) { MessageBox.Show(error.Message, Text); return; }
 
-            btnSend.Enabled = true;
-            btnAnslut.Enabled = false;
         }
 
         public async void StartaSändning(string message)
         {
-            byte[] utData = Encoding.Unicode.GetBytes(tbxUtkorg.Text);
-
-            try
+            if (klient.Connected)
             {
-                await klient.GetStream().WriteAsync(utData, 0, utData.Length);
+                byte[] utData = Encoding.Unicode.GetBytes(tbxUtkorg.Text);
+
+                try
+                {
+                    await klient.GetStream().WriteAsync(utData, 0, utData.Length);
+                }
+                catch (Exception error) { MessageBox.Show(error.Message, Text); return; }
             }
-            catch (Exception error) { MessageBox.Show(error.Message, Text); return; }
         }
     }
 }
